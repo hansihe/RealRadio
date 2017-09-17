@@ -79,7 +79,7 @@ impl SoundLoopState {
 
             init: true,
 
-            effect: Box::new(::effect::FmRadioEffect::new(2048)),
+            effect: Box::new(::effect::NopEffect::new()),
         }
     }
 
